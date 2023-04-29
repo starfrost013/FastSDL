@@ -7,7 +7,8 @@
 
 #include <iostream>
 #include "SDL/include/SDL.h"
-#include "SDL_image/SDL_image.h"
+#undef main
+#include "SDL_image/include/SDL_image.h"
 #include "SDL_mixer/include/SDL_mixer.h"
 
 
