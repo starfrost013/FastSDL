@@ -9,7 +9,14 @@ if (POLICY CMP0141)
   set(CMAKE_MSVC_DEBUG_INFORMATION_FORMAT "$<IF:$<AND:$<C_COMPILER_ID:MSVC>,$<CXX_COMPILER_ID:MSVC>>,$<$<CONFIG:Debug,RelWithDebInfo>:EditAndContinue>,$<$<CONFIG:Debug,RelWithDebInfo>:ProgramDatabase>>")
 endif()
 
+project(SDL2)
+
+find_package(SDL2 REQUIRED)
+include_directories($"{PROJECT_SOURCE_DIR}/SDL");
+
 project ("FastSDL")
+
+
 
 # Add source to this project's executable.
 add_executable (FastSDL "FastSDL.cpp" "FastSDL.h")
