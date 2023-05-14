@@ -18,7 +18,7 @@ public:
 
 	std::vector<Component> components;
 
-	std::vector<Vector3> points;
+	std::vector<Triangle> mesh;
 
 	Vector3 size;
 

@@ -3,7 +3,5 @@
 
 struct Triangle
 {
-	Vector2 point1;
-	Vector2 point2;
-	Vector2 point3;
+	Vector2 points[3];
 };
