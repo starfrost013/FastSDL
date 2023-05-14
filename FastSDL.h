@@ -21,7 +21,8 @@
 #include "Core/Color4.h" // ARGB color
 #include "Core/Matrix22.h" // 2D matrix
 #include "Core/Matrix33.h" // 3D matrix
-#include "Core/Matrix44.h" // 4d matrix
+#include "Core/Matrix44.h" // 4D matrix
+#include "Core/Triangle.h" // Triangle
 
 // Build metadata stuff
 
